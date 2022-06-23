@@ -1,6 +1,5 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [webc].[ExternalRepositoryUpdateServiceCustomParams]    Script Date: 23/06/2022 11:15:32 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

@@ -1,6 +1,5 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [webc].[Gates]    Script Date: 23/06/2022 11:15:32 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -36,7 +35,6 @@ CREATE TABLE [webc].[Gates](
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_PlcIp_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_PlcIp_UNIQUE] ON [webc].[Gates]
 (
 	[PlcIp] ASC
@@ -44,7 +42,6 @@ CREATE UNIQUE NONCLUSTERED INDEX [IDX_PlcIp_UNIQUE] ON [webc].[Gates]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_ReaderIp_PlcIp_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_ReaderIp_PlcIp_UNIQUE] ON [webc].[Gates]
 (
 	[ReaderIp] ASC,
@@ -53,7 +50,6 @@ CREATE UNIQUE NONCLUSTERED INDEX [IDX_ReaderIp_PlcIp_UNIQUE] ON [webc].[Gates]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_ReaderIp_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_ReaderIp_UNIQUE] ON [webc].[Gates]
 (
 	[ReaderIp] ASC
