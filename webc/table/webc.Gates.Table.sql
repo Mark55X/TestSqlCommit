@@ -26,7 +26,6 @@ CREATE TABLE [webc].[Gates](
 	[CreationUser] [int] NULL,
 	[LastModifiedDate] [datetime] NULL,
 	[LastModifiedUser] [int] NULL,
-	[test] [nchar](10) NULL,
  CONSTRAINT [PK_Gates] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
