@@ -8,7 +8,7 @@ GO
 
 
 
-CREATE VIEW [web].[V_ComponentPermissionsPerUser] as
+CREATE VIEW [web].[sV_ComponentPermissionsPerUser] as
 
 SELECT 
 		[componentId]
