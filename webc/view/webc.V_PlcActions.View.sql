@@ -1,6 +1,6 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  View [webc].[V_PlcActions]    Script Date: 23/06/2022 10:55:28 ******/
+/****** Object:  View [webc].[V_PlcActions]    Script Date: 23/06/2022 11:15:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

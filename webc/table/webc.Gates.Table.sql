@@ -1,6 +1,6 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [webc].[Gates]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Table [webc].[Gates]    Script Date: 23/06/2022 11:15:32 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -27,6 +27,7 @@ CREATE TABLE [webc].[Gates](
 	[CreationUser] [int] NULL,
 	[LastModifiedDate] [datetime] NULL,
 	[LastModifiedUser] [int] NULL,
+	[test] [nchar](10) NULL,
  CONSTRAINT [PK_Gates] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -35,7 +36,7 @@ CREATE TABLE [webc].[Gates](
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_PlcIp_UNIQUE]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Index [IDX_PlcIp_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_PlcIp_UNIQUE] ON [webc].[Gates]
 (
 	[PlcIp] ASC
@@ -43,7 +44,7 @@ CREATE UNIQUE NONCLUSTERED INDEX [IDX_PlcIp_UNIQUE] ON [webc].[Gates]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_ReaderIp_PlcIp_UNIQUE]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Index [IDX_ReaderIp_PlcIp_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_ReaderIp_PlcIp_UNIQUE] ON [webc].[Gates]
 (
 	[ReaderIp] ASC,
@@ -52,7 +53,7 @@ CREATE UNIQUE NONCLUSTERED INDEX [IDX_ReaderIp_PlcIp_UNIQUE] ON [webc].[Gates]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_ReaderIp_UNIQUE]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Index [IDX_ReaderIp_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_ReaderIp_UNIQUE] ON [webc].[Gates]
 (
 	[ReaderIp] ASC

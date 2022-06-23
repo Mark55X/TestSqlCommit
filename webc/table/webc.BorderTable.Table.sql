@@ -1,6 +1,6 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [webc].[BorderTable]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Table [webc].[BorderTable]    Script Date: 23/06/2022 11:15:32 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

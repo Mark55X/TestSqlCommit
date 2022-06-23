@@ -1,6 +1,6 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [web].[Users]    Script Date: 23/06/2022 10:55:21 ******/
+/****** Object:  Table [web].[Users]    Script Date: 23/06/2022 11:15:27 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -45,7 +45,7 @@ CREATE TABLE [web].[Users](
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_Email]    Script Date: 23/06/2022 10:55:21 ******/
+/****** Object:  Index [IDX_Email]    Script Date: 23/06/2022 11:15:27 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_Email] ON [web].[Users]
 (
 	[Email] ASC
@@ -53,7 +53,7 @@ CREATE UNIQUE NONCLUSTERED INDEX [IDX_Email] ON [web].[Users]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_UserName]    Script Date: 23/06/2022 10:55:21 ******/
+/****** Object:  Index [IDX_UserName]    Script Date: 23/06/2022 11:15:27 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_UserName] ON [web].[Users]
 (
 	[UserName] ASC
@@ -61,7 +61,7 @@ CREATE UNIQUE NONCLUSTERED INDEX [IDX_UserName] ON [web].[Users]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_UserName_Email]    Script Date: 23/06/2022 10:55:21 ******/
+/****** Object:  Index [IDX_UserName_Email]    Script Date: 23/06/2022 11:15:27 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_UserName_Email] ON [web].[Users]
 (
 	[Email] ASC,

@@ -1,6 +1,6 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [web].[UserRoles]    Script Date: 23/06/2022 10:55:21 ******/
+/****** Object:  Table [web].[UserRoles]    Script Date: 23/06/2022 11:15:27 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

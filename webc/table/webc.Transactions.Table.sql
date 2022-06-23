@@ -1,6 +1,6 @@
 ﻿USE [RFID2022_OLD]
 GO
-/****** Object:  Table [webc].[Transactions]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Table [webc].[Transactions]    Script Date: 23/06/2022 11:15:32 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -31,7 +31,7 @@ CREATE TABLE [webc].[Transactions](
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [IDX_Guid_UNIQUE]    Script Date: 23/06/2022 10:55:26 ******/
+/****** Object:  Index [IDX_Guid_UNIQUE]    Script Date: 23/06/2022 11:15:32 ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IDX_Guid_UNIQUE] ON [webc].[Transactions]
 (
 	[Guid] ASC
