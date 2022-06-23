@@ -1,0 +1,18 @@
+﻿USE [RFID2022_OLD]
+GO
+/****** Object:  Table [webc].[PrintTable]    Script Date: 23/06/2022 10:55:26 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [webc].[PrintTable](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[TransactionId] [int] NULL,
+	[Printed] [bit] NULL,
+	[CreationDate] [datetime] NULL,
+ CONSTRAINT [PK_PrintTable] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
